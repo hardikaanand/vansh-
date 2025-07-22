@@ -17,3 +17,8 @@ resource "azurerm_resource_group" "devopsinsider" {
   name     = "devops-rg"
   location = "West Europe"
 }
+
+resource "azurerm_resource_group" "hardika" {
+  name     = "hardika-rg"
+  location = "West Europe"
+}
